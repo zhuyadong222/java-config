@@ -14,6 +14,7 @@ public class TestMain {
 
     public static void main(String[] args) {
         //测试不成功，不知道为啥
+        //注释掉mybatis的gradle文件就可以了
         ApplicationContext context = new AnnotationConfigApplicationContext(JavaConfig.class);
 
         HelloController bean = context.getBean(HelloController.class);
